@@ -20,11 +20,20 @@ return require("packer").startup(
         use "nvim-tree/nvim-tree.lua"
         use "nvim-tree/nvim-web-devicons"
         use "nvim-lualine/lualine.nvim"
+
+        use "hrsh7th/nvim-cmp"
+        use "hrsh7th/cmp-nvim-lsp"
+        use "L3MON4D3/LuaSnip"
+        use "saadparwaiz1/cmp_luasnip"
+        use "rafamadriz/friendly-snippets"
+        
+
         use {
             "nvim-telescope/telescope.nvim",
             tag = "0.1.0",
             requires = {{"nvim-lua/plenary.nvim"}}
         }
+
         use {
             "williamboman/mason.nvim",
             "williamboman/mason-lspconfig.nvim",
