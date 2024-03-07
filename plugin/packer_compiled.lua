@@ -84,10 +84,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\bfant\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  cmp_luasnip = {
+    loaded = true,
+    path = "C:\\Users\\bfant\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
   ["far.vim"] = {
     loaded = true,
     path = "C:\\Users\\bfant\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\far.vim",
     url = "https://github.com/brooth/far.vim"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "C:\\Users\\bfant\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
+    url = "https://github.com/rafamadriz/friendly-snippets"
   },
   ["kanagawa.nvim"] = {
     loaded = true,
@@ -148,6 +158,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\bfant\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["toggleterm.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\bfant\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
   }
 }
 

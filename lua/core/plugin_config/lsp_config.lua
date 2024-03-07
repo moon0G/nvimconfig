@@ -1,6 +1,6 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
-    ensure_installed = {"lua_ls", "clangd"}  
+    ensure_installed = {"lua_ls", "clangd", "rust_analyzer", "asm_lsp", "pyright"}  
 })
 
 
@@ -23,6 +23,21 @@ require("lspconfig").lua_ls.setup {
 }
 
 require("lspconfig").clangd.setup {
+    on_attach = on_attach,
+    capabilities = capabilities
+}
+
+require("lspconfig").rust_analyzer.setup {
+    on_attach = on_attach,
+    capabilities = capabilities
+}
+
+require("lspconfig").asm_lsp.setup {
+    on_attach = on_attach,
+    capabilities = capabilities
+}
+
+require("lspconfig").pyright.setup {
     on_attach = on_attach,
     capabilities = capabilities
 }

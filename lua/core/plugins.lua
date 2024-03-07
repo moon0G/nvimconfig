@@ -26,7 +26,8 @@ return require("packer").startup(
         use "L3MON4D3/LuaSnip"
         use "saadparwaiz1/cmp_luasnip"
         use "rafamadriz/friendly-snippets"
-        
+
+        use "akinsho/toggleterm.nvim"
 
         use {
             "nvim-telescope/telescope.nvim",
